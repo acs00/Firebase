@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/pad">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad"
+        android:text="Redefinir senha"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edtEmailReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="@dimen/pad"
+        android:hint="Email" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/pad"
+        android:text="Enviar" />
+</LinearLayout>
